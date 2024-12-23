@@ -1,0 +1,51 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    /* background: url('./images/skeleton-bg.png') no-repeat center center/cover; */
+    color: white;
+    text-align: left;
+    width: 1200px;
+    margin: 0 auto;
+    
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    padding: 20px;
+    line-height: 3rem;
+
+    /* font-size:7rem; */
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size:3rem;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 70px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-button:hover {
+    background-color: #0056b3;
+  }
+
+  .Left-Images{
+
+  }
