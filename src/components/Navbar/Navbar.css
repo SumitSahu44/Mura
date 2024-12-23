@@ -1,0 +1,38 @@
+.nav-container{
+    background-color: black;
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+   
+    height: 80px;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+.left-nav{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+ul{
+    display: flex;
+    gap:80px;
+}
+.btn{
+    width: 100px;
+    /* height: 30px; */
+    padding: 14px 20px;
+    background-color: #7B8CE5;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+}
+li{
+    list-style: none;
+}
