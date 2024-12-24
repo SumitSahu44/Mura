@@ -1,7 +1,7 @@
 
-.about{
+/* .about{ */
     /* background: rgb(2,0,36); */
-    background: linear-gradient(90deg, rgba(82,121,218,0) 0%, rgba(74,109,199,0) 0%, rgba(20,27,68,1) 100%, rgba(20,27,68,1) 100%, rgba(159,20,255,1) 100%, rgba(0,0,255,1) 100%, rgba(215,27,255,1) 100%, rgba(2,0,36,1) 100%);
+    /* background: linear-gradient(90deg, rgba(82,121,218,0) 0%, rgba(74,109,199,0) 0%, rgba(20,27,68,1) 100%, rgba(20,27,68,1) 100%, rgba(159,20,255,1) 100%, rgba(0,0,255,1) 100%, rgba(215,27,255,1) 100%, rgba(2,0,36,1) 100%);
 }
 .about-container{
     width: 1200px;
@@ -14,9 +14,9 @@
 }
 
 .steps-container{
-    margin-top: 80px;
+    margin-top: 80px; */
     /* width: 50%; */
-    display: flex;
+    /* display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 20px;
@@ -44,4 +44,4 @@
 
 .text{
     margin: 5px 0;
-}
+} */

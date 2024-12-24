@@ -42,6 +42,12 @@ Run the development server:
 ```bash
   npm start
 ```
+
+
+Run the backend server:
+```bash
+  python app.py
+```
 ## Contributing
 
 Contributions are welcome! Here's how you can help:

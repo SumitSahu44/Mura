@@ -1,73 +1,128 @@
-.bg{
-  
-    background-image: url("C:\Users\HP\OneDrive\Desktop\Mura\frontend\public\images\header-bg.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh; /* Adjust as necessary */
-    width: 100%; /* Full width */
-  
-  
+.bg {
+  background-image: url("C:/Users/HP/OneDrive/Desktop/Mura/frontend/public/images/header-bg.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%; /* Full width */
 }
 
-
+/* Hero Section */
 .hero {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100vh;
-    color: white;
-    /* padding: 0 5%; */
-    max-width: 1200px; 
-    margin: 0 auto;
-    /* background-color: #f5f5f5; Light gray background */
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping for small screens */
+  align-items: center;
+  justify-content: space-between;
+  height: 85vh;
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+  animation: FadeIn 2s;
+  padding: 0 20px; /* Add padding for smaller screens */
+}
+
+/* Left Side (Text) */
+.hero-left {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+}
+
+/* Title and Subtitle */
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+/* Button */
+.hero-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #45a049;
+}
+
+/* Right Side (Image) */
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
+canvas {
+  width: 100%;
+  max-height: 400px; /* Limit the canvas size for better responsiveness */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+      flex-direction: column; /* Stack content vertically */
+      text-align: center;
+      height: auto; /* Adjust height */
   }
-  
+
   .hero-left {
-    flex: 1;
-    /* padding: 20px; */
+      padding: 10px;
   }
-  
+
   .hero-title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    /* color: #333; */
-    color: white;
+      font-size: 2rem; /* Reduce font size for smaller screens */
   }
-  
+
   .hero-subtitle {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    color: #555;
+      font-size: 1rem;
   }
-  
+
   .hero-button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+      font-size: 0.9rem; /* Adjust button size */
+      padding: 8px 16px;
   }
-  
-  .hero-button:hover {
-    background-color: #45a049;
-  }
-  
+
   .hero-right {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    color: white;
+      margin-top: 20px; /* Add spacing between sections */
   }
-  
+
   canvas {
-    width: 100%;
-    height: 800px; /* Adjust height for the 3D model */
+      max-width: 90%; /* Limit image width on smaller screens */
+      max-height: 300px; /* Limit image height */
   }
-  
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+      font-size: 1.8rem; /* Further reduce font size for mobile */
+  }
+
+  .hero-subtitle {
+      font-size: 0.9rem;
+  }
+
+  .hero-button {
+      font-size: 0.8rem;
+      padding: 6px 12px;
+  }
+
+  canvas {
+      max-width: 100%;
+      max-height: 200px;
+  }
+}
