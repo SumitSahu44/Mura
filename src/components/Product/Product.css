@@ -1,0 +1,19 @@
+.box{
+    width: 200px;
+    height: 300px;
+    background-color: #141b44; 
+    padding: 20px;
+}
+.title{
+    width: 300px;
+    margin: 30px auto;
+}
+.box-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.box > img{
+    width: 100%;
+    height: 100%;
+}
