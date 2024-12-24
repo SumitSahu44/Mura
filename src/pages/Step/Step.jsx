@@ -3,7 +3,7 @@ import { FaCloudUploadAlt } from "react-icons/fa";
 import { BiAnalyse } from "react-icons/bi";
 import { SiDowndetector } from "react-icons/si";
 import { Link } from 'react-router-dom'
-import './About.css'
+import './Step.css'
 
 const About = () => {
   return (
