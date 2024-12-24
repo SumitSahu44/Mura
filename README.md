@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+## MURA: MUsculoskeletal RAdiographs
+# Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The MURA model is an advanced machine learning application that analyzes X-ray images and determines whether they indicate abnormalities. Designed to assist healthcare professionals, this model provides quick and accurate diagnostic support, improving efficiency and patient outcomes.
 
-## Available Scripts
+# Features
+- 🩻 X-Ray Image Classification: Detects abnormalities in medical X-ray images.
+- ⚡ Fast Inference: Provides rapid predictions for real-time analysis.
+- 🧠 Powered by AI: Utilizes state-of-the-art deep learning techniques.
+- 🎯 High Accuracy: Trained on a large dataset of labeled X-ray images.
+- 🔒 Secure API: Integrates easily with hospital systems via secure endpoints.
 
-In the project directory, you can run:
+# Tech Stack
+- Model: TensorFlow/Keras
+- Backend: FastAPI/Flask
+- Frontend: React
 
-### `npm start`
+# Workflow
+- Input: Upload an X-ray image (JPEG/PNG format).
+- Processing:
+   - Preprocessing the image (e.g., resizing, normalization).
+   - Feeding the image into the trained ML model.
+- Output: A prediction indicating whether the X-ray is normal or abnormal.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Installation
+Follow these steps to get the project running on your local machine.
+- Clone the repository: (https://github.com/SumitSahu44/Mura)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Deployment
 
-### `npm test`
+Navigate to the project directory:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+  cd MURA
+```
+Install dependencies:
 
-### `npm run build`
+```bash
+  npm install
+```
+Run the development server:
+```bash
+  npm start
+```
+## Contributing
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Contributions are welcome! Here's how you can help:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Fork the repository.
+- Create a new branch: git checkout -b feature-branch-name
+- Make your changes and commit them: git commit -m 'Add some feature'
+- Push the changes to your fork: git push origin feature-branch-name
+- Submit a pull request.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Contact
+ 
+- Author: Sumit Sahu
+- Email: (mailto:sumitkumarsahu141@gmail.com)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
