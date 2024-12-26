@@ -13,7 +13,7 @@ The MURA model is an advanced machine learning application that analyzes X-ray i
 # Tech Stack
 - Model: TensorFlow/Keras
 - Backend: FastAPI/Flask
-- Frontend: React
+- Frontend: React, CSS
 
 # Workflow
 - Input: Upload an X-ray image (JPEG/PNG format).
