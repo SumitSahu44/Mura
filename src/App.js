@@ -18,7 +18,7 @@ const AnimatedRoutes = () => {
         <Routes location={location}>
           <Route path="/" element={<Home />} />
           <Route path="/step" element={<Step />} /> // routes
-          <Route path="/predict" element={<Predicte />} />
+          <Route path="/predict" element={<Predicte />} />  // routes
         </Routes>
       </CSSTransition>
     </TransitionGroup>
