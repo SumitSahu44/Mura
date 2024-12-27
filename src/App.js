@@ -31,11 +31,13 @@ const App = () => {
     <div>
       <Navbar/>
       <Routes>
-         <Route path='/' element={<Home/>} />
+         <Route path='/' element={<Home/>} />   // set routes
          <Route path='/step' element={<Step/>} />
          <Route path='/predict' element={<Predicte/>} />
       </Routes>
     </div>
+
+ 
 
 
 
