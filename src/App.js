@@ -17,7 +17,7 @@ const AnimatedRoutes = () => {
       <CSSTransition key={location.key} classNames="fade" timeout={300}>
         <Routes location={location}>
           <Route path="/" element={<Home />} />
-          <Route path="/step" element={<Step />} />
+          <Route path="/step" element={<Step />} /> // routes
           <Route path="/predict" element={<Predicte />} />
         </Routes>
       </CSSTransition>
