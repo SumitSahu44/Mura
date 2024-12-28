@@ -5,7 +5,7 @@ import "./Header.css";
 import Model from "../Model/Model";
 import { Link } from "react-router-dom";
 
-
+// Header section code 
 const Header = () => {
   return (
     <div className="bg">
