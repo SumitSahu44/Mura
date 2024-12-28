@@ -1,6 +1,8 @@
 import React from 'react'
 import './Navbar.css'
 import { Link, Links } from 'react-router-dom'
+
+// nav bar code 
 const Navbar = () => {
   return (
     <div className='nav-container'>
