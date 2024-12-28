@@ -32,12 +32,7 @@ const Header = () => {
       {/* Right Section with 3D Model */}
       <div className="hero-right">
         <img src="images/skeloton.png" alt=""/>
-      {/* <Canvas>
-        <ambientLight intensity={0.5} />
-        <pointLight position={[10, 10, 10]} />
-        <Model />
-        <OrbitControls enableZoom={false} />
-        </Canvas> */}
+    
       </div>
     </div>
     </div>
