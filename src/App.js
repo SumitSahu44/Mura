@@ -25,7 +25,7 @@ const AnimatedRoutes = () => {
   );
 };
 
-
+// app rourtes 
 const App = () => {
   return (
     <div>
