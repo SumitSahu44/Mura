@@ -25,7 +25,7 @@ const AnimatedRoutes = () => {
   );
 };
 
-// app rourtes 
+// app rourtes or path o pages
 const App = () => {
   return (
     <div>
